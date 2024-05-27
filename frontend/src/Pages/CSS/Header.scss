@@ -1,0 +1,24 @@
+@font-face {
+  font-family: "AlerantiveGot";
+  src: url("../../../src/assets/Fonts/AlternateGotNo1D.ttf");
+}
+
+.backgroundDiv-header {
+  background-color: red;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: AlerantiveGot;
+  justify-content: center;
+  display: flex;
+}
+.div-for-text {
+  font-size: 20px;
+  align-items: center;
+  width: 200px;
+  text-align: center;
+  position: absolute;
+}
+.ImgLogo {
+  display: block;
+  margin-left: auto;
+}

@@ -1,10 +1,14 @@
 import "./CSS/Home.scss";
 import Header from "./Home/Components/Header";
 import Footer from "./Home/Components/Footer";
+// import FloatingNavbar from "./Home/Components/FloatingNavbar";
+import BackgroundImage from "./Home/Components/BackgroundImage";
 function Home() {
   return (
     <div>
       <Header />
+      {/* <FloatingNavbar /> */}
+      <BackgroundImage />
       <main>
         <section id="home">
           <h1>Welcome to Construction Co.</h1>
